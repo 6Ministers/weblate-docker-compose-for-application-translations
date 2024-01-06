@@ -47,10 +47,10 @@ Change the data in `environment`
 
 ``` bash
 WEBLATE_ALLOWED_HOSTS=your-domain.com
-WEBLATE_ADMIN_PASSWORD=password
+WEBLATE_ADMIN_PASSWORD=your-password
 ```
 
-## 5.Run Weblate:
+## 4.Run Weblate:
 
 ``` bash
 docker-compose-https up -d
@@ -62,8 +62,8 @@ Then open `https://weblate.domain.com:` to access Weblate
 Access data
 
 ``` bash
-Login: 
-Password: 
+Login: Weblate Admin
+Password: password
 ```
 
 
