@@ -43,15 +43,17 @@ Go to the catalog
 cd weblate
 ```
 
-Change the data in docker-compose.yml
+Change the data in `environment`
 
-
-
+``` bash
+WEBLATE_ALLOWED_HOSTS=your-domain.com
+WEBLATE_ADMIN_PASSWORD=password
+```
 
 ## 5.Run Weblate:
 
 ``` bash
-docker-compose up -d
+docker-compose-https up -d
 ```
 
 Then open `https://weblate.domain.com:` to access Weblate
@@ -70,25 +72,25 @@ Password:
 **Run**:
 
 ``` bash
-docker-compose up -d
+docker-compose-https up -d
 ```
 
 **Restart**:
 
 ``` bash
-docker-compose restart
+docker-compose-https restart
 ```
 
 **Restart**:
 
 ``` bash
-sudo docker-compose down && sudo docker-compose up -d
+sudo docker-compose-https down && sudo docker-compose-https up -d
 ```
 
 **Stop**:
 
 ``` bash
-docker-compose down
+docker-compose-https down
 ```
 
 ## Documentation
