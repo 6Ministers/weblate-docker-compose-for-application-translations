@@ -53,7 +53,7 @@ WEBLATE_ADMIN_PASSWORD=your-password
 ## 4.Run Weblate:
 
 ``` bash
-docker-compose-https up -d
+docker compose -f docker-compose-https.yml up -d
 ```
 
 Then open `https://weblate.domain.com:` to access Weblate
@@ -72,7 +72,7 @@ Password: password
 **Run**:
 
 ``` bash
-docker-compose-https up -d
+docker compose -f docker-compose-https.yml up -d
 ```
 
 **Restart**:
@@ -84,13 +84,19 @@ docker-compose-https restart
 **Restart**:
 
 ``` bash
-sudo docker-compose-https down && sudo docker-compose-https up -d
+sudo docker compose -f docker-compose-https.yml down -d && sudo docker compose -f docker-compose-https.yml up -d
 ```
 
 **Stop**:
 
 ``` bash
-docker-compose-https down
+docker compose -f docker-compose-https.yml down
 ```
 
 ## Documentation
+https://weblate.org/ru/
+
+https://docs.weblate.org/en/latest/admin/install/docker.html
+
+https://github.com/WeblateOrg/docker-compose
+
