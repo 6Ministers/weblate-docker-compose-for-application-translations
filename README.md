@@ -84,7 +84,7 @@ docker-compose-https restart
 **Restart**:
 
 ``` bash
-sudo docker compose -f docker-compose-https.yml down -d && sudo docker compose -f docker-compose-https.yml up -d
+sudo docker compose -f docker-compose-https.yml down && sudo docker compose -f docker-compose-https.yml up -d
 ```
 
 **Stop**:
