@@ -7,7 +7,7 @@
 ## 1. OpenLDAP+PhpLdapAdmin Server Requirements
 From and more
 - 2 CPUs
-- 2 RAM 
+- 3 RAM 
 - 10 Gb 
 
 Run for Ubuntu 22.04
@@ -43,11 +43,24 @@ Go to the catalog
 cd weblate
 ```
 
+To change the domain in the `Caddyfile` to your own
+
+``` bash
+https://ldap.your-domain:443 {
+    reverse_proxy :8080
+ #   tls admin@example.org
+	encode zstd gzip
+
+...	
+}
+```
+
 Change the data in `environment`
 
 ``` bash
-WEBLATE_ALLOWED_HOSTS=your-domain.com
-WEBLATE_ADMIN_PASSWORD=your-password
+WEBLATE_ADMIN_EMAIL=weblate@example.com # change to your email (login)
+WEBLATE_ADMIN_PASSWORD=password # change to your password
+WEBLATE_SITE_DOMAIN=your-domain.com # change to your domain
 ```
 
 ## 4.Run Weblate:
@@ -62,7 +75,7 @@ Then open `https://weblate.domain.com:` to access Weblate
 Access data
 
 ``` bash
-Login: Weblate Admin
+Login: weblate@example.com
 Password: password
 ```
 
