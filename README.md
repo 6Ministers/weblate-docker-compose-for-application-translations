@@ -61,6 +61,20 @@ WEBLATE_ADMIN_EMAIL=weblate@example.com # change to your email (login)
 WEBLATE_ADMIN_PASSWORD=password # change to your password
 WEBLATE_SITE_DOMAIN=your-domain.com # change to your domain
 ```
+And SMTP
+``` bash
+# Mail server, the server has to listen on port 587 and understand TLS
+WEBLATE_EMAIL_HOST=smtp.beget.com
+# Do NOT use quotes here
+WEBLATE_EMAIL_HOST_USER=weblate@planet596.site
+# Do NOT use quotes here
+WEBLATE_EMAIL_HOST_PASSWORD=r@1s5cS9ns7RvdP&
+```
+Email
+``` bash
+WEBLATE_SERVER_EMAIL=weblate@domain.com
+WEBLATE_DEFAULT_FROM_EMAIL=weblate@domain.com
+```
 
 ## 4.Run Weblate:
 
