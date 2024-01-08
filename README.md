@@ -2,9 +2,9 @@
 
 ## Quick Installation
 
-**Before starting the instance, direct the domain (subdomain) to the ip of the server where OpenLDAP+PhpLdapAdmin will be installed!**
+**Before starting the instance, direct the domain (subdomain) to the ip of the server where Weblate will be installed!**
 
-## 1. OpenLDAP+PhpLdapAdmin Server Requirements
+## 1. Weblate Server Requirements
 From and more
 - 2 CPUs
 - 3 RAM 
