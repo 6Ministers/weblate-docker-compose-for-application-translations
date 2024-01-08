@@ -64,11 +64,11 @@ WEBLATE_SITE_DOMAIN=your-domain.com # change to your domain
 And SMTP
 ``` bash
 # Mail server, the server has to listen on port 587 and understand TLS
-WEBLATE_EMAIL_HOST=smtp.beget.com
+WEBLATE_EMAIL_HOST=
 # Do NOT use quotes here
-WEBLATE_EMAIL_HOST_USER=weblate@planet596.site
+WEBLATE_EMAIL_HOST_USER=weblate@domain.com
 # Do NOT use quotes here
-WEBLATE_EMAIL_HOST_PASSWORD=r@1s5cS9ns7RvdP&
+WEBLATE_EMAIL_HOST_PASSWORD=
 ```
 Email
 ``` bash
