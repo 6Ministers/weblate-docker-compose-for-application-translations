@@ -150,11 +150,11 @@ https://github.com/WeblateOrg/docker-compose
 ![Screenshot_121](https://github.com/6Ministers/weblate-docker-compose-for-application-translations/assets/11208423/04daf3bf-0ba9-422c-ab01-775945ea618d)
 
 9. Repository of the translation source code
-10. Translation source code branch
-11. Repository for saving the translation
+10. Translation source code branch `https://gitlab.com/flectra-hq/flectra.git`
+11. Repository for saving the translation `3.0`
 12. The branch for saving the transfer with the login and password of the gitlab token (you must first do it in gitlab)
 13. Choice po-file gettext
-14. Mask for your translation language
+14. Mask for your translation language `addons/*/i18n/ru.po`
 
 ![Screenshot_124](https://github.com/6Ministers/weblate-docker-compose-for-application-translations/assets/11208423/131ab8a6-763d-4255-989e-2b6c478b21f5)
 
