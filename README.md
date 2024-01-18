@@ -126,3 +126,4 @@ https://docs.weblate.org/en/latest/admin/install/docker.html
 
 https://github.com/WeblateOrg/docker-compose
 
+# Настройка проекта перевода
