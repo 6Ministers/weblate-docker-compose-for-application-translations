@@ -127,3 +127,38 @@ https://docs.weblate.org/en/latest/admin/install/docker.html
 https://github.com/WeblateOrg/docker-compose
 
 # Настройка проекта перевода
+
+![Screenshot_117](https://github.com/6Ministers/weblate-docker-compose-for-application-translations/assets/11208423/0a79bdf0-4450-4dc4-a6e3-bd43712e7760)
+
+1. Название проекта
+2. Сайт переводов
+3. Сохранить
+
+![Screenshot_118](https://github.com/6Ministers/weblate-docker-compose-for-application-translations/assets/11208423/f367dfb0-a680-42ee-951b-be4e9a18baa3)
+
+
+![Screenshot_119](https://github.com/6Ministers/weblate-docker-compose-for-application-translations/assets/11208423/67a796af-a9c4-4910-a6c1-2476974790c5)
+
+4. Навзние ветки перевода проекта
+5. Репозиторий исходного кода перевода
+6. Ветка исходного кода перевода
+7. Продолжить
+
+![Screenshot_120](https://github.com/6Ministers/weblate-docker-compose-for-application-translations/assets/11208423/71dfa09e-2a17-436b-a8d4-898852ad4568)
+
+8. Выбор ручной маски
+![Screenshot_121](https://github.com/6Ministers/weblate-docker-compose-for-application-translations/assets/11208423/04daf3bf-0ba9-422c-ab01-775945ea618d)
+
+9. Репозиторий исходного кода перевода
+10. Ветка исходного кода перевода
+11. Репозиторий сохранения перевода
+12. Ветка сохранения перевода с логином и паролем токена gitlab (нужно предварительно сделать в gitlab)
+13. Выбор po-file gettext
+14. Маска для вашего языка переводов
+
+![Screenshot_124](https://github.com/6Ministers/weblate-docker-compose-for-application-translations/assets/11208423/131ab8a6-763d-4255-989e-2b6c478b21f5)
+
+15. Запретить добавление новых переводов (в случае если вы переводите только один язык)
+16. Сохранить и начнется сканирование исходного репозитория и создание вашего проекта в Weblate
+![Screenshot_123](https://github.com/6Ministers/weblate-docker-compose-for-application-translations/assets/11208423/a4f514ac-2813-4fac-9b11-f61ed9e489e4)
+
